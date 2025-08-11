@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="main-con">
+                    <h2><a href="index.html"><i class="bi bi-fork-knife"></i></a></h2>
+            </div>
+            <div class="menu-bar">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><h2><a href="shop.html"><i class="bi bi-cart-fill"></i></a></h2></li>
+                </ul>
+            </div> 
+            <div class="ham" id="hamIcon" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>   
+        </div>
+    </div>
+
+    <div class="menu-bar-mobile">
+        <ul class="menu-mobile" id="mobileMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><h2><a href="shop.html"><i class="bi bi-cart-fill"></i></a></h2></li>
+        </ul>
+    </div> 
+
+
+    <div class="container-food">
+        <div class="photo-food">
+            <img src="img/brooke-lark-C1fMH2Vej8A-unsplash.jpg" alt="">
+        </div>
+
+        <div class="our-menu">
+            <h2>OUR SPECIAL MENU</h2>
+        </div>
+
+        <div class="menu-text">
+            <div class="spe-menu">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, consequuntur voluptas officia laudantium praesentium aliquam? Eligendi totam odit praesentium, porro suscipit quam quod vitae dolores, blanditiis, nobis tenetur aperiam fuga unde! Iste voluptatem expedita.</p>
+            </div>
+        </div>
+
+         <div class="menu-group">
+                <ul>
+                    <li onclick="searchpro('all')">ทั้งหมด</li>
+                    <li onclick="searchpro('yam')">ส้มตำ/ยำ</li>
+                    <li onclick="searchpro('pad')">ผัด/ทอด</li>
+                    <li onclick="searchpro('sup')">ต้ม/แกง</li>
+                </ul>
+            </div>
+
+        <div class="food" id="foodcontainer">
+            
+        </div>
+
+        <div class="photo-menu">
+            <div class="main-photo-food">
+                <img src="img/alyssa-kowalski-byTYXNHeVoU-unsplash.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="yammy">
+            <h2>อร่อย & สดใหม่</h2>
+
+            <div class="yammy-text">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti possimus numquam beatae hic consectetur, nemo quas nostrum tempore voluptatem deleniti magnam fugiat dignissimos odio. Minima distinctio accusantium nobis non optio adipisci vel aliquid debitis quo voluptas delectus quod dicta odit iusto eum, commodi sit nam inventore ut. Porro animi consequuntur velit cumque aspernatur tenetur, excepturi numquam fugiat aut possimus magni tempora doloremque veritatis!</p>
+            </div>
+
+            <div class="rating">
+                <h2 class="logo-s"><i class="bi bi-stars"></i></h2>
+                <div class="rating-con">
+                    <h3>Rating Star</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <h2 class="logo-d"><i class="bi bi-bicycle"></i></h2>
+                <div class="deli">
+                    <h3>Deli Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="bottom-read">
+                 <a href="">Read More</a>
+            </div>
+        </div>
+
+        <div class="enjoy">
+            <div class="enjoy-text">
+                <h2>ENJOY THIS AMAZING EXPERIENCE</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, est illo? Nisi ad aspernatur delectus repellat! Nesciunt porro aliquid natus itaque illum eaque quia id aut. Voluptas adipisci similique molestias.</p>
+            </div>
+            <div class="slideshow-container">
+                <div class="myslides fade">
+                    <img src="img/jerome-jome-Ga3ziG9jCno-unsplash.jpg" alt="">
+                </div>
+                <div class="myslides fade">
+                    <img src="img/nico-ruzin-_epWm271Dws-unsplash.jpg" alt="">
+                </div>
+                <div class="myslides fade">
+                    <img src="img/sbseattle-OgEKAKARVBE-unsplash.jpg" alt="">
+                </div>
+                <a class="prev" onclick="currentSlide(-1)" >&#10094;</a>
+                <a class="next" onclick="currentSlide(1)" >&#10095;</a>
+            </div>
+        </div>
+        <div class="ourservices-con">
+            <div class="main-ourservices">
+                <h2>OUR SERVICES</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam dolores quod, molestiae eius quas alias omnis laborum amet, distinctio quisquam perspiciatis blanditiis consectetur animi ipsum commodi earum? Reiciendis laboriosam commodi rerum cumque repellendus corrupti?</p>
+            </div>
+        </div>
+
+        <div class="ourder" id="ourder">
+          
+        </div>
+
+        <div class="fruter">
+            <h1>Food</h1>
+            <div class="fruter-main">
+                <div class="fruter-text">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="fruter-text">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="fruter-text">
+                    <h3>Follow us</h3>
+                    <a href="https://github.com/gitgitopop0"><i class="bi bi-github"></i></a>
+                    <a href="https://www.facebook.com/boorapa.youpoung/?locale=th_TH"><i class="bi bi-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-main" id="card-main">
+         <div class="card">
+        <div class="card-con">
+            <div class="card-img">
+                <img src="img/audrey-langlois-O7sxXNvZPZg-unsplash.jpg" alt="">
+            </div>
+             <div class="card-info">
+                <h3>name</h3>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing </h3>
+            </div>
+            <div class="add-main">
+                 <div class="addtocard" id="btnAddToCart">
+                <h3>เพิ่มอาหาร</h3>
+            </div>
+            <div class="exit" id="exit">
+                <h3>ยกเลิก</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
